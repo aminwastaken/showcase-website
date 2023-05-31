@@ -1,0 +1,16 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.section3 h2 {
+  margin-bottom: 10px;
+}
+
+.section3 .section3-text {
+  max-width: 500px;
+  text-align: center;
+}

@@ -38,3 +38,12 @@ body {
 .section-devider .shape-fill {
   fill: #ffffff;
 }
+
+.secondary-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.gray-text {
+  color: #565678;
+}

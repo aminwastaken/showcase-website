@@ -1,6 +1,7 @@
 .main-section {
   height: 95vh;
   width: 100%;
+  position: relative;
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.6) 0,
