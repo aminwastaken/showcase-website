@@ -1,0 +1,42 @@
+.main-section {
+  position: relative;
+  background-image: linear-gradient(
+    to right top,
+    #599d4c,
+    #30b79c,
+    #5ac9d9,
+    #a9d7f8,
+    #e6e7ff
+  );
+  height: 80vh;
+  width: 100%;
+}
+.custom-shape-divider-bottom-1685546536 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1685546536 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 104px;
+}
+
+.custom-shape-divider-bottom-1685546536 .shape-fill {
+  fill: #fff;
+}
+
+.blob-1 {
+  width: 27vw;
+  position: absolute;
+  left: -10vw;
+  top: 100px;
+  /* make transparent */
+  opacity: 0.2;
+}
