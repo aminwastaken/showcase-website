@@ -2,3 +2,16 @@ body {
   font-family: "Proxima Nova", sans-serif;
   position: relative;
 }
+
+.primary-button {
+  background-color: #599d4c;
+  padding: 11px 30px;
+  /* font-weight: bold; */
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #4a8340;
+}
