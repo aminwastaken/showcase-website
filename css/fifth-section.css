@@ -1,0 +1,35 @@
+.section5 {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 90px;
+}
+
+.section5 div {
+  max-width: 450px;
+}
+
+.quote-container .quote-text {
+  position: relative;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.quote-container .quote-text .quote-icon {
+  position: absolute;
+  top: -25px;
+  left: -70px;
+  width: 60px;
+  z-index: -1;
+  color: #599d4c;
+}
+
+.section5 .contact-container a {
+  display: inline-block;
+}
+
+.section5 .contact-container p {
+  margin: 10px 0px 20px 0px;
+}
