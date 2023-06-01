@@ -5,9 +5,12 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  min-height: 280px;
+
+  padding: 100px 40px 100px 40px;
+  /* min-height: 280px; */
   background-color: #599d4c;
   color: white;
+  text-align: center;
 }
 
 .section4 h2 {
@@ -16,5 +19,4 @@
 
 .section4 p {
   max-width: 800px;
-  text-align: center;
 }

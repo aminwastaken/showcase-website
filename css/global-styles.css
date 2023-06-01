@@ -15,27 +15,6 @@ body {
   background-color: #4a8340;
 }
 
-.section-devider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.section-devider svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.section-devider .shape-fill {
-  fill: #ffffff;
-}
-
 .secondary-title {
   font-size: 32px;
   font-weight: bold;
@@ -48,4 +27,10 @@ body {
 .main-title {
   font-size: 42px;
   font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 32px;
+  }
 }

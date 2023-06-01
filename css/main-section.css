@@ -1,7 +1,9 @@
 .main-section {
   height: 95vh;
+  min-height: 700px;
   width: 100%;
   position: relative;
+  padding: 50px;
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.6) 0,
@@ -35,4 +37,37 @@
 .main-section .primary-button {
   padding: 18px 50px;
   font-size: 20px;
+}
+
+.section-devider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.section-devider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.section-devider .shape-fill {
+  fill: #ffffff;
+}
+
+@media (max-width: 1250px) {
+  .section-devider svg {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-button {
+    display: none;
+  }
 }

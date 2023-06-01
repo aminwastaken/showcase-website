@@ -14,3 +14,20 @@
   max-width: 500px;
   text-align: center;
 }
+
+.section3-cards {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media (max-width: 1030px) {
+  .section3-cards {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* gap: 20px; */
+  }
+  .section3-cards .card-variant-1 {
+    width: 80%;
+  }
+}

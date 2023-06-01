@@ -25,3 +25,15 @@
   width: 40%;
   max-width: 600px;
 }
+
+@media (max-width: 1150px) {
+  .section2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section2 div {
+    width: 100%;
+    max-width: 90%;
+  }
+}
