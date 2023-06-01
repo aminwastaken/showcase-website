@@ -2,7 +2,7 @@
   display: flex;
   /* every child should have a width of 40% */
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   gap: 60px;
   padding: 0 3vw;
   align-items: center;
