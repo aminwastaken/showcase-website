@@ -1,8 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/proxima-nova-2");
 @import "css-reset.css";
 @import "global-styles.css";
+@import "cards.css";
 @import "header.css";
 @import "main-section.css";
 @import "second-section.css";
 @import "third-section.css";
-@import "cards.css";
+@import "fourth-section.css";

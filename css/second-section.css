@@ -1,6 +1,5 @@
 .section2 {
   display: flex;
-  /* every child should have a width of 40% */
   width: 100%;
   margin-top: 80px;
   gap: 60px;
