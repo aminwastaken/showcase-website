@@ -5,13 +5,13 @@
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  min-height: 200px;
+  min-height: 280px;
   background-color: #599d4c;
   color: white;
 }
 
 .section4 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .section4 p {
