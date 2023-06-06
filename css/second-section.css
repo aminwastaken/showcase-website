@@ -1,7 +1,7 @@
 .section2 {
   display: flex;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 100px;
   gap: 60px;
   padding: 0 3vw;
   align-items: center;
@@ -22,8 +22,18 @@
 }
 
 .section2 img {
-  width: 40%;
+  width: 70%;
   max-width: 600px;
+}
+
+.section2-variant2 {
+  margin-top: 120px;
+  margin-bottom: 150px;
+}
+
+.section2-variant2 img {
+  width: auto;
+  height: 400px;
 }
 
 @media (max-width: 1150px) {
