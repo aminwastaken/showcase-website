@@ -1,0 +1,38 @@
+.section7 {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  margin-top: 150px;
+  padding: 0 3vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.section7 div {
+  width: 40%;
+  max-width: 400px;
+}
+
+.section7-text h2 {
+  margin-bottom: 10px;
+}
+
+.section7 img {
+  width: 40%;
+  max-width: 600px;
+}
+
+@media (max-width: 1150px) {
+  .section7 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section7 img {
+    width: 70%;
+  }
+
+  .section7 div {
+    width: 100%;
+    max-width: 90%;
+  }
+}

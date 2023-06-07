@@ -13,3 +13,10 @@ header {
 header .icon {
   width: 150px;
 }
+
+.header-logo {
+  display: block;
+  height: 100%;
+  width: 140px;
+  cursor: pointer;
+}

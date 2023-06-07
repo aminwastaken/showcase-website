@@ -1,0 +1,15 @@
+.error-view {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-view img {
+  height: 50vh;
+}
+
+.error-view p {
+  margin: 5px 0px 20px 0px;
+}
